@@ -54,7 +54,7 @@ const Projects = () => {
                         className="cta-btn cta-btn--resume"
                         href={url || '#!'}
                       >
-                        Learn more
+                        More info
                       </a>
 
                       {repo && (
@@ -80,12 +80,6 @@ const Projects = () => {
                     distance="30px"
                   >
                     <div className="project-wrapper__image">
-                      <a
-                        href={url || '#!'}
-                        target="_blank"
-                        aria-label="Project Link"
-                        rel="noopener noreferrer"
-                      >
                         <Tilt
                           options={{
                             reverse: false,
@@ -103,7 +97,7 @@ const Projects = () => {
                             <ProjectImg alt={title} filename={img} />
                           </div>
                         </Tilt>
-                      </a>
+                      {/* </a> */}
                     </div>
                   </Fade>
                 </Col>

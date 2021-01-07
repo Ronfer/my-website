@@ -24,7 +24,7 @@
   }
 
   .project-wrapper {
-    margin-bottom: 15rem;
+    margin-bottom: 25rem;
 
     @include respond(phone) {
       margin-bottom: 0rem;
@@ -40,6 +40,8 @@
 
     &__text {
       text-align: left;
+      
+      
 
       @include respond(phone) {
         margin-bottom: 2.5rem !important;

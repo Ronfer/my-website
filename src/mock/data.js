@@ -17,7 +17,7 @@ export const heroData = {
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'pic01.jpg',
+  img: 'profile.avatar.png',
   paragraphOne: "I started programming for the first time in 2016. My first language was Java. Eventually, I found interest in game development, and I was introduced to the C# language in the Unity game engine, which was very similar to Java. I've also experimented with some .NET Core technologies, such as ASP.NET Core. ",
   paragraphTwo: "Lately, for over a year now, I've been learning and using JavaScript. I've found the transition from C# to JavaScript smooth, and I'm enjoying working with JavaScript. Mostly I've been using React, and I'm confident working with it.  I've also made some experiment projects using Express and MongoDB.",
   paragraphThree: "I've tried to list in my resume the skills that I'm most comfortable with, but in my years of developing, I've become a 'generalist' in many other areas as well.",
@@ -28,21 +28,21 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'pic04.jpg',
+    img: 'wormhole-surfer-lg.png',
     title: 'Wormhole Surfer (Work in progress)',
     info: "This is my latest game project I've been working for a while now. I'm planning to release it in the next 6 months to the google play store.",
     info2: 'Developed with: Godot engine, using C# and GDScript.',
-    url: '',
+    url: 'https://play.google.com/store/apps/dev?id=5615211606814366495',
     repo: '', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'pic04.jpg',
+    img: 'mockup.jpg',
     title: 'My portfolio website',
     info: 'I made this website to implement my resume and to learn more about working with Javascript and React.',
     info2: 'Developed with: React and Gatsby. You can find link to the source from the link below.',
-    url: '',
-    repo: 'https://github.com/ronfer', // if no repo, the button will not show up
+    url: 'https://github.com/Ronfer/resume-site',
+    repo: '', // if no repo, the button will not show up
   },
 ];
 
