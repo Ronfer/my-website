@@ -10,6 +10,7 @@ import { PortfolioProvider } from '../context/context';
 import { heroData, aboutData, projectsData, contactData, footerData } from '../mock/data';
 
 function App() {
+  alert("This is my old website, and it might contain outdated information.\n\nA new website is currently in the works.");
   const [hero, setHero] = useState({});
   const [about, setAbout] = useState({});
   const [projects, setProjects] = useState([]);
