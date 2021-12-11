@@ -3,8 +3,7 @@ import { Container } from 'react-bootstrap';
 import Fade from 'react-reveal/Fade';
 import { Link } from 'react-scroll';
 import PortfolioContext from '../../context/context';
-
-import TextLoop from "react-text-loop";
+import Typewriter from "typewriter-effect"
 
 const Header = () => {
   const { hero } = useContext(PortfolioContext);
@@ -32,11 +31,16 @@ const Header = () => {
             <span className="text-color-main">{name || 'Ronnie Isomäki'}</span>
             <br />
             {subtitle || "And I'm a"}{' '}
-                        <TextLoop springConfig={{ stiffness: 80, damping: 18 }} mask={true}> 
-                          <span className="text-color-main">Web Developer</span>
-                          <span className="text-color-main">Game Developer</span>
-                          <span className="text-color-main">IT Support</span>
-                        </TextLoop>
+                                    <Typewriter options={{
+                                        strings: [
+                                          "Full Stack Developer",
+                                          "Integrations Developer",
+                                          "Game Developer",
+                                        ],
+                                        autoStart: true,
+                                        loop: true,
+                                      }} 
+                                    />
           </h1>
         </Fade>
         <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={1000} distance="30px">
