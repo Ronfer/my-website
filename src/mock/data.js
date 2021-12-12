@@ -21,7 +21,7 @@ export const aboutData = {
   paragraphOne: "I started programming for the first time in 2016. My first language was Java. Eventually, I found interest in game development, and I was introduced to the C# language in the Unity game engine, which was very similar to Java. I've also experimented with some .NET Core technologies, such as ASP.NET Core. ",
   paragraphTwo: "Lately, for over a year now, I've been learning and using JavaScript. I've found the transition from C# to JavaScript smooth, and I'm enjoying working with JavaScript. Mostly I've been using React, and I'm confident working with it.  I've also made some experiment projects using Express and MongoDB.",
   paragraphThree: "I've tried to list in my resume the skills that I'm most comfortable with, but in my years of developing, I've become a 'generalist' in many other areas as well.",
-  resume: 'https://drive.google.com/file/d/1SFIUM_nzsNT57vaAUkLCZeNQItsnlfhg/view?usp=sharing', // if no resume, the button will not show up
+  resume: 'https://drive.google.com/file/d/1KCb_srRPkYC8CLHpgyXLGvXirvCDQzyb/view?usp=sharing', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
