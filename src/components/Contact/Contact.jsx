@@ -18,16 +18,11 @@ const Contact = () => {
                     action="/thank-you"
                     data-netlify="true"
                     >
-                <div className="input-area">
+              <div className="input-area">
                   <input
                     type="hidden"
                     name="form-name"
                     value="contact"
-                  />
-                <div className="input-area">
-                  <input
-                    type="text"
-                    name="name"
                     aria-label="Name"
                     required
                     autoComplete="off"
