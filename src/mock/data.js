@@ -19,8 +19,8 @@ export const heroData = {
 export const aboutData = {
   img: 'profile.avatar.png',
   paragraphOne: "I started programming for the first time in 2016. My first language was Java. Eventually, I found interest in game development, and I was introduced to the C# language in the Unity game engine, which was very similar to Java. I've also experimented with some .NET Core technologies, such as ASP.NET Core. ",
-  paragraphTwo: "",
-  paragraphThree: "I've tried to list in my resume the skills that I'm most comfortable with, but in my years of developing, I've become a 'generalist' in many other areas as well.",
+  paragraphTwo: "Lately, I've been using JavaScript quite a lot in my employment which involves web development. I've also had options to use Python in a couple of integration assignments and started to appreciate using this language. When it comes to databases, my preferred is MongoDB. These are some of my preferences. Ultimately, it's about what's the best tool for the job.",
+  paragraphThree: "I've tried to list the skills that I'm most comfortable with, but in my years of developing, I've become a 'generalist' in many other areas as well.",
   resume: 'https://drive.google.com/file/d/1KCb_srRPkYC8CLHpgyXLGvXirvCDQzyb/view?usp=sharing', // if no resume, the button will not show up
 };
 
