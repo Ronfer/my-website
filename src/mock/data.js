@@ -19,7 +19,7 @@ export const heroData = {
 export const aboutData = {
   img: 'profile.avatar.png',
   paragraphOne: "I started programming for the first time in 2016. My first language was Java. Eventually, I found interest in game development, and I was introduced to the C# language in the Unity game engine, which was very similar to Java. I've also experimented with some .NET Core technologies, such as ASP.NET Core. ",
-  paragraphTwo: "Lately, for over a year now, I've been learning and using JavaScript. I've found the transition from C# to JavaScript smooth, and I'm enjoying working with JavaScript. Mostly I've been using React, and I'm confident working with it.  I've also made some experiment projects using Express and MongoDB.",
+  paragraphTwo: "",
   paragraphThree: "I've tried to list in my resume the skills that I'm most comfortable with, but in my years of developing, I've become a 'generalist' in many other areas as well.",
   resume: 'https://drive.google.com/file/d/1KCb_srRPkYC8CLHpgyXLGvXirvCDQzyb/view?usp=sharing', // if no resume, the button will not show up
 };
@@ -28,11 +28,20 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'wormhole-surfer-lg.png',
+    img: 'wormhole-surfer-lg.jpg',
     title: 'Wormhole Surfer (Work in progress)',
     info: "This is my latest game project I've been working for a while now. I'm planning to release it in the next 6 months to the google play store.",
     info2: 'Developed with: Godot engine, using C# and GDScript.',
     url: 'https://play.google.com/store/apps/dev?id=5615211606814366495',
+    repo: '', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'fastapi.logo.jpg',
+    title: 'Rest API boilerplate made with FastAPI',
+    info: 'A Rest API with basic CRUD, JWT authenticated endpoints and MongoDB as database.',
+    info2: 'Developed with: Python and FastAPI. You can find link to the source from the link below.',
+    url: 'https://github.com/Ronfer/fastapi-mongodb-restapi-boilerplate',
     repo: '', // if no repo, the button will not show up
   },
   {
