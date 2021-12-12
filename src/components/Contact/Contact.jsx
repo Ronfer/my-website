@@ -13,7 +13,7 @@ const Contact = () => {
         <Title title="Contact Me" />
           <div className='content-container container'>
             <div className="screen-header">
-              <form name='contact' data-netlify="true">
+              <form name='contact' method="POST" action="thank-you" data-netlify="true">
                 <div className='input-area'>
                   <input
                     type='text'
