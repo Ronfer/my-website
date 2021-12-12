@@ -13,7 +13,7 @@ const Contact = () => {
         <Title title="Contact Me" />
           <div className='content-container container'>
             <div className="screen-header">
-              <form name='contact' netlify>
+              <form name='contact' data-netlify="true">
                 <div className='input-area'>
                   <input
                     type='text'
@@ -55,11 +55,11 @@ const Contact = () => {
                 </div>
 
                 <div className='input-area button-area'>
-                  {/* <Button label='Send Contact Form' cta='Send' type='submit' /> */}
+                  <Button label='Send Contact Form' cta='Send' type='submit' />
                 </div>
               </form>
             </div>
-            <Button label='Send Contact Form' cta='Send' type='submit' />
+            {/* <Button label='Send Contact Form' cta='Send' type='submit' /> */}
           </div>
       </Container>
     </ContactWrapper>
