@@ -27,7 +27,7 @@ const ButtonWrapper = styled.button`
   display: inline-block;
   padding: 0 50px;
   margin-top: 20px;
-  margin-bottom: 20px;
+  /* margin-bottom: 20px; */
   height: 50px;
   text-align: center;
   line-height: 50px;
@@ -47,7 +47,7 @@ const ButtonWrapper = styled.button`
     cursor: pointer;
     animation: animate 8s linear infinite;
     &::before {
-      filter: blur(15px);
+      filter: blur(5px);
       opacity: 1;
       animation: animate 8s linear;
     }
