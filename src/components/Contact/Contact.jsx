@@ -20,7 +20,7 @@ const Contact = () => {
                     >
                 <div className="input-area">
                   <input
-                    type="hidden"
+                    type="text"
                     name="form-name"
                     value="contact"
                     aria-label="Name"
