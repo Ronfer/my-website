@@ -26,8 +26,8 @@ const ButtonWrapper = styled.button`
   position: relative;
   display: inline-block;
   padding: 0 50px;
-  margin-top: 20px;
-  /* margin-bottom: 20px; */
+  margin-top: 25px;
+  margin-bottom: 20px;
   height: 50px;
   text-align: center;
   line-height: 50px;
