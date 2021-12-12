@@ -1,65 +1,69 @@
-import React, { useContext } from 'react';
-import styled from 'styled-components';
-// import Fade from 'react-reveal/Fade';
-import { Container } from 'react-bootstrap';
-import Title from '../Title/Title';
-import Button from '../Button/Button';
+import React, { useContext } from "react";
+import styled from "styled-components";
+// import Fade from "react-reveal/Fade";
+import { Container } from "react-bootstrap";
+import Title from "../Title/Title";
+import Button from "../Button/Button";
 
 const Contact = () => {
 
   return (
-    <ContactWrapper id='contact'>
+    <ContactWrapper id="contact">
       <Container>
         <Title title="Contact Me" />
-          <div className='content-container container'>
+          <div className="content-container container">
             <div className="screen-header">
-              <form name='contact' method="POST" action="thank-you" data-netlify="true">
-                <div className='input-area'>
+              <form name="contact"
+                    method="POST"
+                    action="/thank-you"
+                    data-netlify="true"
+                    >
+                <div className="input-area">
                   <input
-                    type='text'
-                    name='name'
-                    aria-label='Name'
+                    type="text"
+                    name="name"
+                    aria-label="Name"
                     required
-                    autoComplete='off'
+                    autoComplete="off"
                   />
-                  <label className='label-name' for='name'>
-                    <span className='content-name'>Name</span>
+                  <label className="label-name" for="name">
+                    <span className="content-name">Name</span>
                   </label>
                 </div>
 
-                <div className='input-area'>
+                <div className="input-area">
                   <input
-                    type='email'
-                    name='email'
-                    aria-label='Email'
+                    type="email"
+                    name="email"
+                    aria-label="Email"
                     required
-                    autoComplete='off'
+                    autoComplete="off"
                   />
-                  <label className='label-name' for='email'>
-                    <span className='content-name'>Email</span>
+                  <label className="label-name" for="email">
+                    <span className="content-name">Email</span>
                   </label>
                 </div>
 
-                <div className='input-area'>
+                <div className="input-area">
                   <textarea
-                    type='text'
-                    name='message'
-                    rows='5'
+                    type="text"
+                    name="message"
+                    rows="5"
                     required
-                    autoComplete='off'
-                    aria-label='Message'
+                    autoComplete="off"
+                    aria-label="Message"
                   />
-                  <label className='label-name' for='message'>
-                    <span className='content-name'>Message</span>
+                  <label className="label-name" for="message">
+                    <span className="content-name">Message</span>
                   </label>
                 </div>
 
-                <div className='input-area button-area'>
-                  <Button label='Send Contact Form' cta='Send' type='submit' />
+                <div className="input-area button-area">
+                  <Button label="Send Contact Form" cta="Send" type="submit" />
                 </div>
               </form>
             </div>
-            {/* <Button label='Send Contact Form' cta='Send' type='submit' /> */}
+            {/* <Button label="Send Contact Form" cta="Send" type="submit" /> */}
           </div>
       </Container>
     </ContactWrapper>
@@ -150,7 +154,7 @@ const ContactWrapper = styled.section`
         height: 100%;
         pointer-events: none;
         &::after {
-          content: '';
+          content: "";
           position: absolute;
           left: 0px;
           bottom: -1px;
