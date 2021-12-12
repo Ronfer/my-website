@@ -20,9 +20,14 @@ const Contact = () => {
                     >
                 <div className="input-area">
                   <input
-                    type="text"
+                    type="hidden"
                     name="form-name"
                     value="contact"
+                  />
+                <div className="input-area">
+                  <input
+                    type="text"
+                    name="name"
                     aria-label="Name"
                     required
                     autoComplete="off"
