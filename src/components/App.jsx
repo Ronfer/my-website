@@ -17,7 +17,7 @@ function App() {
   const [footer, setFooter] = useState({});
 
   useEffect(() => {
-    alert("This is my old website, and it might contain outdated information.\n\nA new website is currently in the works.");
+    // alert("This is my old website, and it might contain outdated information.\n\nA new website is currently in the works.");
     setHero({ ...heroData });
     setAbout({ ...aboutData });
     setProjects([...projectsData]);
